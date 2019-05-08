@@ -1,4 +1,5 @@
 import application.*;
+
 public class Main {
 
     /**
@@ -21,6 +22,5 @@ public class Main {
           System.out.println("the temperature in Helsinki area is "+helsinkiArea.measure() + " degrees");
 
           System.out.println("readings: "+helsinkiArea.readings());
-    }
-    
+    }    
 }
