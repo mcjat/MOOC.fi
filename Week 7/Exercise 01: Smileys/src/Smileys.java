@@ -11,10 +11,10 @@
 *   :):):):):):):):)
 */
 
-public class Smileys {
-    
+public class Smileys {    
     private static void printWithSmileys (String characterString) {
         int numberOfSmiles = 0;
+        
         if(checkEven(characterString.length())){
             smile((characterString.length()/2)+3);
             System.out.println();
@@ -43,7 +43,6 @@ public class Smileys {
             System.out.print(":)");
             numberOfSmiles--;
         }
-        
     }
     
     private static boolean checkEven(int numToCheck){
@@ -59,5 +58,4 @@ public class Smileys {
         printWithSmileys("Beerbottle");
         printWithSmileys("Interface");
     }
-
 }
