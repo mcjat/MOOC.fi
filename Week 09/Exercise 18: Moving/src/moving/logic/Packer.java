@@ -27,6 +27,5 @@ public class Packer {
             needNewBox =1;
         }
         return allBoxes;
-    }
-    
+    }    
 }
